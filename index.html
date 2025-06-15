@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Free Logo Maker by Farhan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+      background: #0f0f1a;
+      color: white;
+      line-height: 1.6;
+    }
+    a { color: gold; text-decoration: none; }
+    nav {
+      background: #131320;
+      padding: 16px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    nav .menu a {
+      margin: 0 15px;
+      color: white;
+      font-weight: 500;
+    }
+    nav .auth a {
+      margin-left: 20px;
+      font-weight: bold;
+      background: white;
+      color: black;
+      padding: 8px 18px;
+      border-radius: 24px;
+    }
+    header {
+      text-align: center;
+      padding: 100px 20px 40px;
+      background: linear-gradient(to bottom right, #1e1e3c, #0f0f1a);
+    }
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+      color: gold;
+    }
+    header p {
+      color: #ccc;
+      font-size: 18px;
+    }
+    .input-box {
+      margin: 40px auto;
+      max-width: 500px;
+      display: flex;
+      background: #292945;
+      border-radius: 50px;
+      overflow: hidden;
+      border: 1px solid #444;
+    }
+    .input-box input {
+      flex: 1;
+      padding: 16px 20px;
+      border: none;
+      background: transparent;
+      color: white;
+      font-size: 16px;
+    }
+    .input-box button {
+      padding: 16px 24px;
+      background: gold;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: gold;
+      font-size: 28px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      text-align: center;
+    }
+    .gallery-item {
+      background: #1b1b2a;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+    }
+    .gallery-item img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 8px 5px;
+      padding: 8px 14px;
+      background: gold;
+      color: black;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .features, .tools, .faq, .testimonials {
+      display: grid;
+      gap: 20px;
+    }
+    .features div, .tools div {
+      background: #1c1c2e;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.05);
+    }
+    .footer {
+      background: #111;
+      padding: 40px 20px;
+      color: #aaa;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="menu">
+    <a href="#">Solutions</a>
+    <a href="#">Pricing</a>
+    <a href="#">Resources</a>
+    <a href="#">Enterprise</a>
+    <a href="#">What's New</a>
+  </div>
+  <div class="auth">
+    <a href="#">Log in</a>
+    <a href="#">Start Free Logo</a>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<header>
+  <h1>Free Logo Maker by Farhan</h1>
+  <p>Create, customize, and download logos — 100% free and professional.</p>
+  <div class="input-box">
+    <input type="text" placeholder="What’s your brand name?" />
+    <button>Start designing</button>
+  </div>
+</header>
+
+<!-- LOGO DOWNLOAD GALLERY -->
+<section class="gallery">
+  <h2>🖼️ Download Your Logo</h2>
+  <div class="gallery-item">
+    <img src="logo1.png" alt="Logo 1">
+    <a class="btn" href="logo1.png" download>Download PNG</a>
+    <a class="btn" href="https://www.canva.com" target="_blank">Edit in Canva</a>
+  </div>
+  <div class="gallery-item">
+    <img src="logo2.png" alt="Logo 2">
+    <a class="btn" href="logo2.png" download>Download PNG</a>
+    <a class="btn" href="https://figma.com" target="_blank">Edit in Figma</a>
+  </div>
+  <div class="gallery-item">
+    <img src="logo3.png" alt="Logo 3">
+    <a class="btn" href="logo3.png" download>Download PNG</a>
+    <a class="btn" href="https://www.canva.com" target="_blank">Edit in Canva</a>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <h2>🎨 Why Use Our Logo Maker?</h2>
+  <div>✔️ 100% Free — no hidden fees</div>
+  <div>✔️ No experience needed — fully beginner friendly</div>
+  <div>✔️ Pick from designer templates and trending styles</div>
+  <div>✔️ Get high-resolution files for web, social & print</div>
+</section>
+
+<!-- TOOLS -->
+<section class="tools">
+  <h2>🛠️ Free Tools</h2>
+  <div>🔤 <strong>Business Name Generator</strong> — Create catchy brand names</div>
+  <div>🗣️ <strong>Slogan Maker</strong> — Generate taglines that sell</div>
+  <div>🌐 <strong>Domain Checker</strong> — See if your .com is available</div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <h2>💬 What Users Say</h2>
+  <div>"I created a logo while sitting in traffic — too easy!" – Torian J.</div>
+  <div>"Perfect for Facebook, Instagram, TikTok branding!" – Jasmine F.</div>
+  <div>"Better than hiring a designer!" – Hussaina H.</div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <h2>❓ FAQs</h2>
+  <div><strong>Is this really free?</strong> Yes! 100% free with no hidden charges.</div>
+  <div><strong>Can I use my logo anywhere?</strong> Yes — print, products, websites, social media.</div>
+  <div><strong>Can I edit the logo later?</strong> Yes — with Canva or Figma anytime.</div>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+  &copy; 2025 Free Logo Maker by Farhan – All Rights Reserved
+</div>
+
+</body>
+</html>
+firebase deploy
